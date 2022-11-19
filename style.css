@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Bg.svg);
+    background-color: #981262;
+    width: 2000px;
+    height: 1500px;
+    top: -133px;
+    left: -152px;
+    
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    
+}
+#Login{
+color: #CF820E;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 80px;
+border: solid  rgba(98,12,62,0.5);
+border-radius: 20px;
+}
+
+.input1{
+     background-color: rgba(98,12,62,0.5);
+    color:#CF820E;
+    outline: none;
+    padding: 3px;
+}
+.input2{
+     background-color: rgba(98,12,62,0.5);
+    color:#CF820E;
+    outline: none;
+    padding: 3px;
+}
+
+.Butao{
+    background-color: rgba(98,12,62,0.5);
+    color: #CF820E;
+    border: none;
+    padding: 5px;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 7px;
+}
